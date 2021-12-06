@@ -15,5 +15,6 @@ for i in n:
     else:
         dict[i]=1
 print(dict)
-for i in dict:
-    print(i)
+for i,j in dict.items():
+    if j>1:
+        print(i,'-',j)
