@@ -4,3 +4,10 @@
 # Given:
 #
 # str1 = "Emma is a data scientist who knows Python. Emma works at google."
+
+# Expected Output:
+#
+# Last occurrence of Emma starts at index 43
+
+str = input("Enter any word: ")
+print(str.rfind("Emma"))
