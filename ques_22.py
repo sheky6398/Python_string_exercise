@@ -7,14 +7,16 @@
 # h 2
 # r 2
 # t 2
-n='thequickbrownfoxjumpsoverthelazydog'
-dict={}
-for i in n:
+import _ctypes
+from _ctypes import Union, Structure, Array
+a='thequickbrownfoxjumpsoverthelazydog'
+dict = {}
+for i in a:
     if i in dict:
         dict[i]+=1
-    else:
+    else: 
         dict[i]=1
 print(dict)
-for i,j in dict.items():
+for i,j in sorted(dict.items(),key=lambda x:x[1],reverse=True):
     if j>1:
-        print(i,'-',j)
+        print(i,j)
