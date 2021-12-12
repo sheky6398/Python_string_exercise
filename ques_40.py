@@ -8,6 +8,6 @@
 #
 # AuKellylt
 
-word_1 =#input("Enter first word: ")
+word_1 = input("Enter first word: ")
 word_2 = input('Enter Second word: ')
-print(word_1[len(word_1//2)])
+print(word_1[:len(word_1)//2]+word_2+word_1[len(word_1)//2:])
