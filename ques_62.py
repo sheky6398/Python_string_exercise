@@ -12,8 +12,8 @@
 #     True
 #     >>> isPalindrome("")
 #     False
-word =""
-word= word.lower()
+word = "Never"
+word = word.lower()
 if word==word[::-1]:
     print(True)
 else:
