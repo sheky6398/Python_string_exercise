@@ -7,8 +7,6 @@
 # h 2
 # r 2
 # t 2
-import _ctypes
-from _ctypes import Union, Structure, Array
 a='thequickbrownfoxjumpsoverthelazydog'
 dict = {}
 for i in a:
